@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
 /**
  * Program: Print missing number in an array
  * 
- * Sort the array first
- * If difference is 1 then no need to do any thing because numbers are in order.
- * If difference is not equal to 1 then we need to print all those numbers or
- * pick those numbers and place it in one array. Here there may be a chance of array not starting
- * with 1 then we need to check first itself whether array starts with 1 or not
- * if not we need to print 1 to start element of array.
+ * Sort the array first If difference is 1 then no need to do any thing because
+ * numbers are in order. If difference is not equal to 1 then we need to print
+ * all those numbers or pick those numbers and place it in one array. Here there
+ * may be a chance of array not starting with 1 then we need to check first
+ * itself whether array starts with 1 or not if not we need to print 1 to start
+ * element of array.
  * 
  * @author smukhopadhyay1
  */
