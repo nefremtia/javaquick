@@ -17,7 +17,7 @@ public class BubbleSort {
 	private static void bubble_srt(int[] array) {
 		
 		for (int m=0;m<array.length;m++){
-			for (int i=0;i<array.length-1;i++){
+			for (int i=0;i<array.length-m-1;i++){
 				if (array[i]>array[i+1]){
 					array[i]=array[i]+array[i+1];
 					array[i+1]=array[i]-array[i+1];
