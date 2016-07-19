@@ -1,4 +1,4 @@
-package javaquick.programs;
+package javaquick.newtech;
 
 public class SortPractice {
 	public static void main(String args[]) {
@@ -28,7 +28,7 @@ public class SortPractice {
 			for (int i=0;i<array.length;i++){
 				int index=i;
 				for (int j = 0;j<array.length;j++){
-					if (array[index]>array[j]){
+					if (array[index]<array[j]){
 						index=j;
 						int temp= array[j];
 						array[j]=array[i];
